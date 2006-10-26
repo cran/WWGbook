@@ -1,0 +1,18 @@
+citHeader("To cite the WWGbook package in publications use:")
+
+citEntry(entry="Book",
+         title = "Linear Mixed Models: A Practical Guide Using Statistical Software",
+         author = personList(as.person("B. West"), 
+                             as.person("K. Welch"),
+                             as.person("A. Galecki")),
+	 publisher = "Chapman Hall / CRC Press",
+         edition = "First",
+         year         = 2006,
+         note         = "ISBN 1584884800",
+         url          = "http://www-personal.umich.edu/~bwest/almmussp.html",
+         
+         textVersion = 
+         paste("West, B., Welch, K. & Galecki, A. (2006)", 
+               "Linear Mixed Models: A Practical Guide Using Statistical Software.",
+               "First Edition. Chapman Hall / CRC Press. ISBN 1584884800")
+)

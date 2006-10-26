@@ -1,0 +1,35 @@
+R code and datasets to support 'Linear Mixed Models: A Practical Guide Using Statistical Software', 
+first edition, by West, B., Welch, K. & Galecki, A, first Edition, Chapman Hall / CRC Press. 2006.
+
+This file is intended to clarify ownership and copyright: where
+possible individual files also carry brief copyright notices. 
+
+
+Copyrights
+==========
+
+Our understanding is that the dataset files WWGbook/data/*.rda are not copyright.
+
+
+
+Licence
+=======
+
+   
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1301
+    USA.
+
+
+The file COPYING in the R top-level directory is a copy of the 'GNU
+General Public License'.
+
+
+chenshu@umich.edu
+agalecki@umich.edu
