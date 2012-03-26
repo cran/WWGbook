@@ -25,26 +25,15 @@ Chapman Hall / CRC Press, first edition, 2006.
 }
 \examples{
 attach(autism)
-
-###Figure 6.1: Observed VSAE values plotted against age for children in each SICD group. 
-
 sicdegp.f <- factor(sicdegp)
 age.f <- factor(age)
+detach(autism)
 
 # Add the new variables to a new data frame object.
 autism.updated <- data.frame(autism, sicdegp.f, age.f)
+dim(autism.updated)
+names(autism.updated)
 
-library(lattice)  # Load the library for trellis graphics.
- 
-# Load the nlme library, which is required for the 
-# plots below as well as for subsequent models.
-library(nlme)
-
-autism.g1 <- groupedData(vsae ~ age | childid, 
-outer = ~ sicdegp.f, data = autism.updated)
-
-plot(autism.g1, display = "childid", outer = TRUE, aspect = 2, key = FALSE, xlab = "Age (Years)", ylab = "VSAE", 
-main = "Individual Data by SICD Group") 
 }
 
 

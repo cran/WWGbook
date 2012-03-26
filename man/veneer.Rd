@@ -26,27 +26,7 @@ West, B., Welch, K. & Galecki, A, Linear Mixed Models: A Practical Guide Using S
 Chapman Hall / CRC Press, first edition, 2006.
 }
 \examples{
-attach(veneer)
-
-#### Figure 7.2: Raw GCF values for each tooth vs. time, by patient. Panels are ordered by patient age.
-age.f <- factor(age)
-time.f <- factor(time)
-tooth.f <- factor(tooth)
-
-veneer <- data.frame(veneer,age.f, time.f, tooth.f)
-sort(age.f)
-
-
-library(lattice)  # Load the library for trellis graphics.
-
-# Load the nlme library, which is required for the 
-# plots below as well as for subsequent models.
-library(nlme)
-
-veneer.g1 <- groupedData(gcf ~ time | tooth.f, 
-outer = ~ age.f, data = veneer)
-plot(veneer.g1, display = "tooth", outer = TRUE, aspect = 2, key = FALSE, xlab = "time", ylab = "GCF", main="Panels are ordered by patient age." ,layout=c(4,3)) 
-
+str(veneer)
 }
 
 \keyword{datasets}

@@ -24,14 +24,7 @@ West, B., Welch, K. & Galecki, A, Linear Mixed Models: A Practical Guide Using S
 Chapman Hall / CRC Press, first edition, 2006.
 }
 \examples{
-attach(ratpup)
-
-###Figure 3.1:Boxplots to compare the distributions of birth weights for each treatment by sex combination graphically
-library(lattice)  # trellis graphics
-library(grid)
-
-bwplot(weight ~ sex|treatment, data=ratpup,aspect = 2, ylab="Birth Weights", 
-    xlab="SEX",main = "Boxplots of birth weights for levels of treatment by sex")
+str(ratpup)
 }
 
 \keyword{datasets}

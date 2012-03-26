@@ -26,7 +26,6 @@ Chapman Hall / CRC Press, first edition, 2006.
 \examples{
 attach(rat.brain)
 
-###Figure 5.1: Line graphs of activation for each animal by region within levels of treatment for the Rat Brain data.
 region.f <- region
 region.f[region == 1] <- 1
 region.f[region == 2] <- 2
@@ -36,19 +35,10 @@ treat <- treatment
 treat[treatment == 1] <- 0
 treat[treatment == 2] <- 1
 treat <- factor(treat)
+detach(rat.brain)
 rat.brain <- data.frame(rat.brain, region.f, treat)
-
-library(lattice)  # Load the library for trellis graphics.
-# Load the nlme library, which is required for the 
-# plots below as well as for subsequent models.
-library(nlme)
-
-rat.brain.g1 <- groupedData(activate ~ region | animal, 
-outer = ~ treat, data = rat.brain)
-
-plot(rat.brain.g1, display = "animal", outer = TRUE, aspect = 2, key = FALSE, xlab = "region", ylab = "mean activate", main="Treatment" ) 
+str(rat.brain)
 }
-
 
 \keyword{datasets}
 
