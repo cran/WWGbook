@@ -1,5 +1,4 @@
-d41d8cd98f00b204e9800998ecf8427e *CONTENTS
-83639464a408f63d5333a61ba68961b5 *DESCRIPTION
+019f7eb555bdf3156afe33f099ca9c4d *DESCRIPTION
 74ba2c4ecf72aacc91de71992bf5a55f *INDEX
 d41d8cd98f00b204e9800998ecf8427e *NAMESPACE
 8902a2f95de952b5d1e8a8f936def155 *data/autism.rda
@@ -8,7 +7,6 @@ bcf423d4b56a11679e3019558d8ecaee *data/rat.brain.rda
 cc2d2320f42d90d5d0cf7acc03336eef *data/ratpup.rda
 054c93e58d2e5f8bfc98315dfcab8d8b *data/veneer.rda
 2b7e1f0263a0989337baa5f8a1d0b64f *inst/CITATION
-89ce18b25c7b995f2994c2faff2ac8cc *inst/LICENCE
 8457da933ef757c50d9fccf8947d6e1d *inst/NEWS
 9840de8e7dc94b09427816cae81feaec *inst/scripts/ch03.R
 ca7a8b4468c263400f1e7649d81d24ec *inst/scripts/ch04.R
@@ -16,7 +14,7 @@ ca7a8b4468c263400f1e7649d81d24ec *inst/scripts/ch04.R
 774cadb82b684dbe7390951e0f6597ae *inst/scripts/ch06.R
 5a6b92329b8e1c7b02ce5a483ac84fd7 *inst/scripts/ch07.R
 2af6d3a9b0d6763c57f53c322c502043 *man/autism.Rd
-8c6bb1f5d9f81b472118ab4cdccc219f *man/classroom.Rd
+b5f38ebb95838f641b5fe283d832e314 *man/classroom.Rd
 08bc68cdf7e77af03c6c625e769ab057 *man/rat.brain.Rd
 0db237fecaff0d76d6bdb90aae3bd6c3 *man/ratpup.Rd
 3728dc34d60b313a607bbaf4cced07fc *man/veneer.Rd

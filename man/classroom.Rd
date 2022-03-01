@@ -15,10 +15,12 @@
     \item{sex}{: Indicator variable (0 = boys, 1 = girls)}
     \item{minority}{: Indicator variable (0 = non-minority students, 1 = minority students) }
     \item{mathkind}{: Student math score in the spring of their kindergarten year}
-    \item{mathgain}{: Student gain in math achievement score from the spring of kindergarten to the spring of first grade (the dependent variable)}
+    \item{mathgain}{: Student gain in math achievement score from the spring of kindergarten to the spring of first grade
+      (the dependent variable)}
     \item{ses}{: Student socioeconomic status}
     \item{yearstea}{: First grade teacher years of teaching experience }
-    \item{mathknow}{: First grade teacher mathematics content knowledge: based on a scale based composed of 30 items (higher values indicate higher content knowledge) }
+    \item{mathknow}{: First grade teacher mathematics content knowledge: based on a scale based composed of 30 items
+         (higher values indicate higher content knowledge) }
     \item{housepov}{: Percentage of households in the neighborhood of the school below the poverty level }
     \item{mathprep}{: First grade teacher mathematics preparation: number of mathematics content and methods courses}
     \item{classid}{: Classroom ID number}
@@ -40,8 +42,8 @@ attach(classroom)
 classroom.first8 <- classroom[classroom$schoolid <= 8,]
 par(mfrow=c(4,2))
 for (i in 1:8) 
-{boxplot(classroom.first8$mathgain[classroom.first8$schoolid==i] ~ classroom.first8$classid[classroom.first8$schoolid==i],ylab="Mathgain", xlab="classid" )}
-
+{boxplot(classroom.first8$mathgain[classroom.first8$schoolid==i] ~ 
+classroom.first8$classid[classroom.first8$schoolid==i], ylab="Mathgain", xlab="classid" )}
 }
 
 
